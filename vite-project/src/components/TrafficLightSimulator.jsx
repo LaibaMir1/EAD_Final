@@ -12,21 +12,11 @@ const TrafficLightSimulator = () => {
                 return cycle[next]; 
             })
         }, 3000)
-
-
       return () => clearInterval(interval);
     }, []);
 
   return (<>
-
-
-    <div className="container">
-      <div className="light-red" />
-      <div className="light-yellow}" />
-      <div className="light-green" />
-
-
-    </div>
+    
     </>
   )
 }
