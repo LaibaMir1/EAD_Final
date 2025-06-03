@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <TrafficLightSimulator></TrafficLightSimulator>
+    <TrafficLightSimulator/>
 
 
 
